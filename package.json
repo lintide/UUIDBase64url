@@ -1,0 +1,29 @@
+{
+  "name": "b64uuid",
+  "version": "1.0.0",
+  "description": "UUID convert to url safe base64",
+  "main": "index.js",
+  "dependencies": {
+    "base64url": "^1.0.4",
+    "node-uuid": "^1.4.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhimeilrc/UUIDBase64url.git"
+  },
+  "keywords": [
+    "uuid",
+    "base64",
+    "url"
+  ],
+  "author": "lintide",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhimeilrc/UUIDBase64url/issues"
+  },
+  "homepage": "https://github.com/zhimeilrc/UUIDBase64url#readme"
+}
