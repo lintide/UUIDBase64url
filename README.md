@@ -22,7 +22,10 @@ $ npm install node-uuid
 
 ```javascript
 var buffer = new Buffer(uuid.v4('binary'));
-var base64 = buffer.toString('base64').replace(/\+/g, '-').replace(/\//g, '_').replace(/=/g, '');
+var base64 = buffer.toString('base64')
+                    .replace(/\+/g, '-')
+                    .replace(/\//g, '_')
+                    .replace(/=/g, '');
 ```
 
 ## 参考文档
