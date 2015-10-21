@@ -1,8 +1,13 @@
 ## 在 nodejs 上生成 UUID
 
 ```
-$ npm install node-uuid
+$ git clone https://github.com/lintide/UUIDBase64url.git
+$ cd UUIDBase64url
+$ npm install
+$ node index.js
 ```
+
+## 使用 UUID 库
 
 不过这个库只提供 `UUID V1` 和 `UUID V4`的实现，示例如下：
 
